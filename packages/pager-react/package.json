@@ -1,0 +1,37 @@
+{
+  "name": "@alexruzzarin/neutrino-preset-pager-react",
+  "version": "0.0.1",
+  "description": "Neutrino preset for adding Prettier formatter to ESLint config",
+  "main": "index.js",
+  "keywords": [
+    "neutrino",
+    "neutrino-preset",
+    "prettier",
+    "eslint",
+    "react"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexruzzarin/neutrino-scripts.git"
+  },
+  "author": "Alex Ruzzarin <alex@pager.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/alexruzzarin/neutrino-scripts/issues"
+  },
+  "homepage": "https://github.com/alexruzzarin/neutrino-scripts#readme",
+  "dependencies": {
+    "@neutrinojs/airbnb": "^8.3.0",
+    "@neutrinojs/loader-merge": "^8.3.0",
+    "@neutrinojs/react": "^8.3.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.2",
+    "prettier": "^1.13.7"
+  },
+  "peerDependencies": {
+    "neutrino": "^8.0.0"
+  }
+}

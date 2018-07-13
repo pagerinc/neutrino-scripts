@@ -1,0 +1,48 @@
+{
+  "name": "neutrino-scripts",
+  "private": true,
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexruzzarin/neutrino-scripts.git"
+  },
+  "author": "Alex Ruzzarin <alex@pager.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/alexruzzarin/neutrino-scripts/issues"
+  },
+  "homepage": "https://github.com/alexruzzarin/neutrino-scripts#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "lerna run build",
+    "changelog": "auto-changelog --remote upstream --commit-limit false",
+    "link:all": "lerna exec yarn link",
+    "lint": "neutrino lint",
+    "precommit": "lint-staged",
+    "release": "yarn build && lerna publish --force-publish=*",
+    "release:preview": "yarn build && lerna publish --force-publish=* --skip-git --skip-npm",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "neutrino": "^8.3.0"
+  },
+  "devDependencies": {
+    "@neutrinojs/airbnb-base": "^8.3.0",
+    "auto-changelog": "^1.7.2",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.2",
+    "lerna": "^2.11.0",
+    "lint-staged": "^7.2.0",
+    "prettier": "^1.13.7"
+  },
+  "lint-staged": {
+    "*.js": [
+      "yarn lint"
+    ]
+  }
+}
