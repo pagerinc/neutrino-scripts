@@ -1,6 +1,6 @@
 {
   "name": "@alexruzzarin/neutrino-preset-pager-react",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Neutrino preset for adding Prettier formatter to ESLint config",
   "main": "index.js",
   "keywords": [
