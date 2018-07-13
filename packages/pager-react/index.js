@@ -8,9 +8,11 @@ module.exports = (neutrino, opts = {}) => {
 
   neutrino.config.when(neutrino.config.module.rules.has('lint'), () => {
     neutrino.use(loaderMerge('lint', 'eslint'), {
-      plugins: ['prettier'],
       baseConfig: {
         extends: ['plugin:prettier/recommended', 'prettier/react']
+      },
+      rules: {
+        'react/jsx-filename-extension': [1, { extensions: ['.js'] }]
       }
     });
   });
