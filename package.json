@@ -24,7 +24,7 @@
     "release": "yarn build && lerna publish --force-publish=*",
     "release:preview": "yarn build && lerna publish --force-publish=* --skip-git --skip-npm",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "version": "yarn changelog --package && git add CHANGELOG.md"
+    "version": "yarn changelog --latest-version $LERNA_PUBLISH_VERSION && git add CHANGELOG.md"
   },
   "dependencies": {
     "neutrino": "^8.3.0"
