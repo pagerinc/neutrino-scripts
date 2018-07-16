@@ -12,9 +12,6 @@
     "url": "https://github.com/alexruzzarin/neutrino-scripts/issues"
   },
   "homepage": "https://github.com/alexruzzarin/neutrino-scripts#readme",
-  "publishConfig": {
-    "access": "public"
-  },
   "workspaces": [
     "packages/*"
   ],
