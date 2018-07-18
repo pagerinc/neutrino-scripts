@@ -15,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alexruzzarin/neutrino-scripts.git"
+    "url": "git+https://github.com/pagerinc/neutrino-scripts.git"
   },
   "author": "Alex Ruzzarin <alex@pager.com>",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/alexruzzarin/neutrino-scripts/issues"
+    "url": "https://github.com/pagerinc/neutrino-scripts/issues"
   },
-  "homepage": "https://github.com/alexruzzarin/neutrino-scripts#readme",
+  "homepage": "https://github.com/pagerinc/neutrino-scripts#readme",
   "publishConfig": {
     "access": "public"
   },
