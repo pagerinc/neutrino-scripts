@@ -1,3 +1,4 @@
+const merge = require('deepmerge');
 const { DefinePlugin } = require('webpack');
 const { join } = require('path');
 
@@ -29,9 +30,14 @@ function loadConfig(path, target) {
 }
 
 module.exports = (neutrino, opts = { pager: { path: 'config' } }) => {
-  const defineArgs = opts.pager.envs || {};
+  const options = merge(
+    { pager: { path: 'config', defaultTarget: 'default' } },
+    opts
+  );
 
-  const target = process.env.TARGET || 'default';
+  const defineArgs = options.pager.envs || {};
+
+  const target = process.env.TARGET || options.pager.defaultTarget;
 
   Object.assign(
     defineArgs,
