@@ -37,12 +37,12 @@ module.exports = (neutrino, opts = { pager: { path: 'config' } }) => {
 
   const defineArgs = options.pager.envs || {};
 
-  const target = process.env.TARGET || options.pager.defaultTarget;
+  const target = process.env.TARGET || options.pager.defaultTarget || 'default';
 
   Object.assign(
     defineArgs,
-    loadConfig(opts.pager.path, 'base'),
-    loadConfig(opts.pager.path, target),
+    loadConfig(options.pager.path, 'base'),
+    loadConfig(options.pager.path, target),
     {
       'process.env.TARGET': JSON.stringify(target)
     }
