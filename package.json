@@ -17,7 +17,7 @@
   ],
   "scripts": {
     "build": "lerna run build",
-    "changelog": "auto-changelog --remote origin --commit-limit false",
+    "changelog": "auto-changelog --remote upstream --commit-limit false",
     "link:all": "lerna exec yarn link",
     "lint": "neutrino lint",
     "precommit": "lint-staged",
