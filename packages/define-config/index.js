@@ -15,7 +15,7 @@ function tryRequire(modulePath) {
 }
 
 function loadConfig(path, target) {
-  const config = tryRequire(join(__dirname, path, target));
+  const config = tryRequire(join(process.cwd(), path, target));
   if (!config) {
     return {};
   }
