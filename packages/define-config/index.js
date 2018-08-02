@@ -48,7 +48,6 @@ module.exports = (neutrino, opts = { pager: { path: 'config' } }) => {
     }
   );
 
-  console.log(DefinePlugin, defineArgs);
   neutrino.config
     .plugin('pagerConfig')
     .use(DefinePlugin, defineArgs)
