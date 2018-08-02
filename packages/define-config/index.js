@@ -22,7 +22,7 @@ function loadConfig(path, target) {
 
   return Object.entries(config).reduce(
     (result, [key, value]) =>
-      Object.apply(result, {
+      Object.assign(result, {
         [`process.env.${key}`]: JSON.stringify(value)
       }),
     {}
