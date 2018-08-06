@@ -1,7 +1,7 @@
 {
   "name": "@pager/neutrino-preset-pager-react",
-  "version": "0.3.0",
-  "description": "Neutrino preset for adding Prettier formatter to ESLint config",
+  "version": "0.4.0",
+  "description": "Neutrino preset for adding Prettier formatter to react preset",
   "main": "index.js",
   "keywords": [
     "neutrino",
@@ -30,7 +30,8 @@
     "@neutrinojs/airbnb": "^8.3.0",
     "@neutrinojs/loader-merge": "^8.3.0",
     "@neutrinojs/react": "^8.3.0",
-    "@pager/neutrino-define-config": "^0.3.0",
+    "@neutrinojs/stylelint": "^8.3.0",
+    "@pager/neutrino-define-config": "^0.4.0",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-prettier": "^2.6.2",
     "prettier": "^1.13.7"

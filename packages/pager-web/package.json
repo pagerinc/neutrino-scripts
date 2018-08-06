@@ -1,13 +1,14 @@
 {
-  "name": "@pager/neutrino-define-config",
+  "name": "@pager/neutrino-preset-pager-web",
   "version": "0.4.0",
-  "description": "Neutrino middleware for injecting config variables into source code",
+  "description": "Neutrino preset for adding Prettier formatter to web preset",
   "main": "index.js",
   "keywords": [
     "neutrino",
-    "neutrino-middleware",
-    "define",
-    "config"
+    "neutrino-preset",
+    "prettier",
+    "eslint",
+    "web"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -26,8 +27,14 @@
     "access": "public"
   },
   "dependencies": {
-    "deepmerge": "^2.1.1",
-    "webpack": "^3.12.0"
+    "@neutrinojs/airbnb-base": "^8.3.0",
+    "@neutrinojs/loader-merge": "^8.3.0",
+    "@neutrinojs/stylelint": "^8.3.0",
+    "@neutrinojs/web": "^8.3.0",
+    "@pager/neutrino-define-config": "^0.4.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.2",
+    "prettier": "^1.13.7"
   },
   "peerDependencies": {
     "neutrino": "^8.0.0"
