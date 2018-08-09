@@ -6,7 +6,7 @@ const defineCongig = require('@pager/neutrino-define-config');
 
 module.exports = (neutrino, opts = {}) => {
   neutrino.use(neutrinoAirbnbBase, opts);
-  neutrino.use(neutrinoStylelint, opts);
+  neutrino.use(neutrinoStylelint, opts.stylelint);
   neutrino.use(neutrinoWeb, opts);
   neutrino.use(defineCongig, opts);
 
@@ -14,10 +14,6 @@ module.exports = (neutrino, opts = {}) => {
     neutrino.use(loaderMerge('lint', 'eslint'), {
       baseConfig: {
         extends: ['plugin:prettier/recommended', 'prettier/react']
-      },
-      rules: {
-        'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-        'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'
       }
     });
   });

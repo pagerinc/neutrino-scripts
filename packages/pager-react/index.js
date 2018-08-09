@@ -6,7 +6,7 @@ const defineCongig = require('@pager/neutrino-define-config');
 
 module.exports = (neutrino, opts = {}) => {
   neutrino.use(neutrinoAirbnb, opts);
-  neutrino.use(neutrinoStylelint, opts);
+  neutrino.use(neutrinoStylelint, opts.stylelint);
   neutrino.use(neutrinoReact, opts);
   neutrino.use(defineCongig, opts);
 
@@ -16,9 +16,7 @@ module.exports = (neutrino, opts = {}) => {
         extends: ['plugin:prettier/recommended', 'prettier/react']
       },
       rules: {
-        'react/jsx-filename-extension': [1, { extensions: ['.js'] }],
-        'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-        'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'
+        'react/jsx-filename-extension': [1, { extensions: ['.js'] }]
       }
     });
   });
