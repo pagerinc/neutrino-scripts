@@ -1,6 +1,6 @@
 {
   "name": "@pager/neutrino-preset-pager-react",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "Neutrino preset for adding Prettier formatter to react preset",
   "main": "index.js",
   "keywords": [
@@ -31,7 +31,7 @@
     "@neutrinojs/loader-merge": "^8.3.0",
     "@neutrinojs/react": "^8.3.0",
     "@neutrinojs/stylelint": "^8.3.0",
-    "@pager/neutrino-define-config": "^0.4.1",
+    "@pager/neutrino-define-config": "^0.4.2",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-prettier": "^2.6.2",
     "prettier": "^1.13.7"

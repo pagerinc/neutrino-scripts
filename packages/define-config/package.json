@@ -1,6 +1,6 @@
 {
   "name": "@pager/neutrino-define-config",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "Neutrino middleware for injecting config variables into source code",
   "main": "index.js",
   "keywords": [
