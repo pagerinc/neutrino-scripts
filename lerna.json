@@ -4,7 +4,7 @@
     "packages/*"
   ],
   "version": "0.4.1",
-  "npmClient": "npm",
+  "npmClient": "yarn",
   "registry": "https://registry.npmjs.org/",
   "useWorkspaces": true
 }

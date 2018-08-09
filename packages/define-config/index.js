@@ -29,7 +29,7 @@ function loadConfig(path, target) {
   );
 }
 
-module.exports = (neutrino, opts = { pager: { path: 'config' } }) => {
+module.exports = (neutrino, opts = {}) => {
   const options = merge(
     { pager: { path: 'config', defaultTarget: 'default' } },
     opts
