@@ -20,13 +20,12 @@ function loadConfig(path, target) {
     return {};
   }
 
-  return Object.entries(config).reduce(
-    (result, [key, value]) =>
-      Object.assign(result, {
-        [`process.env.${key}`]: JSON.stringify(value)
-      }),
-    {}
-  );
+  return Object.entries(config).reduce((result, [key, value]) => {
+    process.env[key] = value;
+    return Object.assign(result, {
+      [`process.env.${key}`]: JSON.stringify(value)
+    });
+  }, {});
 }
 
 module.exports = (neutrino, opts = {}) => {
