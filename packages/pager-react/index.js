@@ -1,8 +1,9 @@
 const neutrinoAirbnb = require('@neutrinojs/airbnb');
 const neutrinoStylelint = require('@neutrinojs/stylelint');
 const neutrinoReact = require('@neutrinojs/react');
-const loaderMerge = require('@neutrinojs/loader-merge');
 const defineCongig = require('@pager/neutrino-define-config');
+const loaderMerge = require('@neutrinojs/loader-merge');
+const merge = require('deepmerge');
 
 module.exports = (neutrino, opts = {}) => {
   neutrino.use(defineCongig, opts);
@@ -19,5 +20,17 @@ module.exports = (neutrino, opts = {}) => {
         'react/jsx-filename-extension': [1, { extensions: ['.js'] }]
       }
     });
+  });
+
+  neutrino.config.when(neutrino.config.plugins.has('stylelint'), () => {
+    neutrino.config.plugin('stylelint').tap(([options, ...args]) => [
+      merge(options, {
+        config: {
+          extends: require.resolve('stylelint-config-standard'),
+          rules: {}
+        }
+      }),
+      ...args
+    ]);
   });
 };
