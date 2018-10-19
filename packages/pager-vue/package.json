@@ -34,7 +34,7 @@
     "@pager/neutrino-define-config": "^0.5.1",
     "eslint-config-prettier": "2.9.0",
     "eslint-plugin-prettier": "2.6.2",
-    "prettier": "1.13.7"
+    "prettier": "1.14.3"
   },
   "peerDependencies": {
     "neutrino": "^8.0.0"
