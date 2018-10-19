@@ -635,14 +635,15 @@ atob@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.1.tgz#ae2d5a729477f289d60dd7f96a6314a22dd6c22a"
 
-auto-changelog@1.7.2:
-  version "1.7.2"
-  resolved "https://registry.yarnpkg.com/auto-changelog/-/auto-changelog-1.7.2.tgz#f1c88b14f1c2c58617e263bc4127f93d6eae2067"
+auto-changelog@1.8.1:
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/auto-changelog/-/auto-changelog-1.8.1.tgz#23c2e1dc5b0fb3a4c9bc6783b7e2f14407fcd97d"
   dependencies:
     babel-polyfill "^6.26.0"
     commander "^2.9.0"
     handlebars "^4.0.11"
     lodash.uniqby "^4.7.0"
+    node-fetch "^2.2.0"
     parse-github-url "^1.0.1"
     semver "^5.1.0"
 
@@ -6430,6 +6431,10 @@ no-case@^2.2.0:
   resolved "https://registry.yarnpkg.com/no-case/-/no-case-2.3.2.tgz#60b813396be39b3f1288a4c1ed5d1e7d28b464ac"
   dependencies:
     lower-case "^1.1.1"
+
+node-fetch@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.2.0.tgz#4ee79bde909262f9775f731e3656d0db55ced5b5"
 
 node-forge@0.7.5:
   version "0.7.5"
