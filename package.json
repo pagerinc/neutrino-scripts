@@ -27,16 +27,16 @@
     "version": "yarn changelog --latest-version $LERNA_PUBLISH_VERSION && git add CHANGELOG.md"
   },
   "dependencies": {
-    "neutrino": "^8.3.0"
+    "neutrino": "8.3.0"
   },
   "devDependencies": {
-    "@neutrinojs/airbnb-base": "^8.3.0",
-    "auto-changelog": "^1.7.2",
-    "eslint-config-prettier": "^2.9.0",
-    "eslint-plugin-prettier": "^2.6.2",
-    "lerna": "^2.11.0",
-    "lint-staged": "^7.2.0",
-    "prettier": "^1.13.7"
+    "@neutrinojs/airbnb-base": "8.3.0",
+    "auto-changelog": "1.7.2",
+    "eslint-config-prettier": "2.9.0",
+    "eslint-plugin-prettier": "2.6.2",
+    "lerna": "2.11.0",
+    "lint-staged": "7.2.0",
+    "prettier": "1.13.7"
   },
   "lint-staged": {
     "*.js": [
