@@ -78,7 +78,7 @@
     lodash "^4.2.0"
     to-fast-properties "^2.0.0"
 
-"@neutrinojs/airbnb-base@^8.3.0":
+"@neutrinojs/airbnb-base@8.3.0":
   version "8.3.0"
   resolved "https://registry.yarnpkg.com/@neutrinojs/airbnb-base/-/airbnb-base-8.3.0.tgz#5ebd7f6d63776103c613fa4fbc64bcfa7ae6e7bd"
   dependencies:
@@ -87,7 +87,7 @@
     eslint-config-airbnb-base "^12.1.0"
     eslint-plugin-import "^2.12.0"
 
-"@neutrinojs/airbnb@^8.3.0":
+"@neutrinojs/airbnb@8.3.0":
   version "8.3.0"
   resolved "https://registry.yarnpkg.com/@neutrinojs/airbnb/-/airbnb-8.3.0.tgz#1fe20e8e32cf031ca4a18479f6a1e5c5901a1afc"
   dependencies:
@@ -230,7 +230,7 @@
     imagemin-webpack "^1.1.2"
     webpack "^3.12.0"
 
-"@neutrinojs/loader-merge@^8.3.0":
+"@neutrinojs/loader-merge@8.3.0", "@neutrinojs/loader-merge@^8.3.0":
   version "8.3.0"
   resolved "https://registry.yarnpkg.com/@neutrinojs/loader-merge/-/loader-merge-8.3.0.tgz#0669e06e61cc0430b991f9919b488c8975353cb0"
   dependencies:
@@ -245,7 +245,7 @@
     "@neutrinojs/style-minify" "^8.3.0"
     deepmerge "^1.5.2"
 
-"@neutrinojs/react@^8.3.0":
+"@neutrinojs/react@8.3.0":
   version "8.3.0"
   resolved "https://registry.yarnpkg.com/@neutrinojs/react/-/react-8.3.0.tgz#bbc0b9c394e5fca586145fcab54c7ccf767adc6b"
   dependencies:
@@ -280,7 +280,7 @@
     deepmerge "^1.5.2"
     optimize-css-assets-webpack-plugin "^3.2.0"
 
-"@neutrinojs/stylelint@^8.3.0":
+"@neutrinojs/stylelint@8.3.0":
   version "8.3.0"
   resolved "https://registry.yarnpkg.com/@neutrinojs/stylelint/-/stylelint-8.3.0.tgz#0befc20c191123a40f1b3859cf00a525bbcf5750"
   dependencies:
@@ -289,7 +289,7 @@
     stylelint-webpack-plugin "^0.10.5"
     webpack "^3.12.0"
 
-"@neutrinojs/vue@^8.3.0":
+"@neutrinojs/vue@8.3.0":
   version "8.3.0"
   resolved "https://registry.yarnpkg.com/@neutrinojs/vue/-/vue-8.3.0.tgz#5dcae01fb78c4ee619c93a30a34dce43c4de7282"
   dependencies:
@@ -305,7 +305,7 @@
     vue-loader "^13.7.2"
     vue-template-compiler "^2.5.16"
 
-"@neutrinojs/web@^8.3.0":
+"@neutrinojs/web@8.3.0", "@neutrinojs/web@^8.3.0":
   version "8.3.0"
   resolved "https://registry.yarnpkg.com/@neutrinojs/web/-/web-8.3.0.tgz#c76611042eaf0587606b67c157108c8d90151439"
   dependencies:
@@ -639,7 +639,7 @@ atob@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.1.tgz#ae2d5a729477f289d60dd7f96a6314a22dd6c22a"
 
-auto-changelog@^1.7.2:
+auto-changelog@1.7.2:
   version "1.7.2"
   resolved "https://registry.yarnpkg.com/auto-changelog/-/auto-changelog-1.7.2.tgz#f1c88b14f1c2c58617e263bc4127f93d6eae2067"
   dependencies:
@@ -2975,13 +2975,13 @@ deep-sort-object@^1.0.2:
   dependencies:
     is-plain-object "^2.0.1"
 
+deepmerge@2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-2.1.1.tgz#e862b4e45ea0555072bf51e7fd0d9845170ae768"
+
 deepmerge@^1.5.1, deepmerge@^1.5.2:
   version "1.5.2"
   resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-1.5.2.tgz#10499d868844cdad4fee0842df8c7f6f0c95a753"
-
-deepmerge@^2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-2.1.1.tgz#e862b4e45ea0555072bf51e7fd0d9845170ae768"
 
 defaults@^1.0.3:
   version "1.0.3"
@@ -3461,7 +3461,7 @@ eslint-config-airbnb@^16.1.0:
   dependencies:
     eslint-config-airbnb-base "^12.1.0"
 
-eslint-config-prettier@^2.9.0:
+eslint-config-prettier@2.9.0:
   version "2.9.0"
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-2.9.0.tgz#5ecd65174d486c22dff389fe036febf502d468a3"
   dependencies:
@@ -3523,7 +3523,7 @@ eslint-plugin-jsx-a11y@^6.0.3:
     has "^1.0.3"
     jsx-ast-utils "^2.0.1"
 
-eslint-plugin-prettier@^2.6.2:
+eslint-plugin-prettier@2.6.2:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-2.6.2.tgz#71998c60aedfa2141f7bfcbf9d1c459bf98b4fad"
   dependencies:
@@ -5612,7 +5612,7 @@ lcid@^1.0.0:
   dependencies:
     invert-kv "^1.0.0"
 
-lerna@^2.11.0:
+lerna@2.11.0:
   version "2.11.0"
   resolved "https://registry.yarnpkg.com/lerna/-/lerna-2.11.0.tgz#89b5681e286d388dda5bbbdbbf6b84c8094eff65"
   dependencies:
@@ -5667,7 +5667,7 @@ levn@^0.3.0, levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
-lint-staged@^7.2.0:
+lint-staged@7.2.0:
   version "7.2.0"
   resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-7.2.0.tgz#bdf4bb7f2f37fe689acfaec9999db288a5b26888"
   dependencies:
@@ -6403,7 +6403,7 @@ neo-async@^2.5.0:
   version "2.5.1"
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.5.1.tgz#acb909e327b1e87ec9ef15f41b8a269512ad41ee"
 
-neutrino@^8.3.0:
+neutrino@8.3.0:
   version "8.3.0"
   resolved "https://registry.yarnpkg.com/neutrino/-/neutrino-8.3.0.tgz#36feaa00448d7ca413193e58d51798c2568f672d"
   dependencies:
@@ -7428,7 +7428,7 @@ preserve@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/preserve/-/preserve-0.2.0.tgz#815ed1f6ebc65926f865b310c0713bcb3315ce4b"
 
-prettier@^1.13.7:
+prettier@1.13.7:
   version "1.13.7"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.13.7.tgz#850f3b8af784a49a6ea2d2eaa7ed1428a34b7281"
 
@@ -8685,7 +8685,7 @@ stylelint-config-recommended@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/stylelint-config-recommended/-/stylelint-config-recommended-2.1.0.tgz#f526d5c771c6811186d9eaedbed02195fee30858"
 
-stylelint-config-standard@^18.2.0:
+stylelint-config-standard@18.2.0:
   version "18.2.0"
   resolved "https://registry.yarnpkg.com/stylelint-config-standard/-/stylelint-config-standard-18.2.0.tgz#6283149aba7f64f18731aef8f0abfb35cf619e06"
   dependencies:
@@ -9588,7 +9588,7 @@ webpack-sources@^1.0.0, webpack-sources@^1.0.1:
     source-list-map "^2.0.0"
     source-map "~0.6.1"
 
-webpack@^3.12.0:
+webpack@3.12.0, webpack@^3.12.0:
   version "3.12.0"
   resolved "https://registry.yarnpkg.com/webpack/-/webpack-3.12.0.tgz#3f9e34360370602fcf639e97939db486f4ec0d74"
   dependencies:
