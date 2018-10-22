@@ -32,9 +32,9 @@
   "devDependencies": {
     "@neutrinojs/airbnb-base": "8.3.0",
     "auto-changelog": "1.8.1",
-    "eslint-config-prettier": "2.9.0",
-    "eslint-plugin-prettier": "2.6.2",
-    "lerna": "2.11.0",
+    "eslint-config-prettier": "2.10.0",
+    "eslint-plugin-prettier": "2.7.0",
+    "lerna": "3.4.3",
     "lint-staged": "7.3.0",
     "prettier": "1.14.3"
   },

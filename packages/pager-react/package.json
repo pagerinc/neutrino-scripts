@@ -33,8 +33,8 @@
     "@neutrinojs/stylelint": "8.3.0",
     "@pager/neutrino-define-config": "^0.5.1",
     "deepmerge": "2.2.1",
-    "eslint-config-prettier": "2.9.0",
-    "eslint-plugin-prettier": "2.6.2",
+    "eslint-config-prettier": "2.10.0",
+    "eslint-plugin-prettier": "2.7.0,
     "prettier": "1.14.3",
     "stylelint-config-standard": "18.2.0"
   },
