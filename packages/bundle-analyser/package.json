@@ -1,0 +1,35 @@
+{
+  "name": "@pager/neutrino-bundle-analyser",
+  "version": "0.5.1",
+  "description": "Neutrino middleware for analyse the generated bundle",
+  "keywords": [
+    "neutrino",
+    "neutrino-middleware",
+    "bundle",
+    "analyser"
+  ],
+  "author": "Alex <1187547+alexruzzarin@users.noreply.github.com>",
+  "homepage": "https://github.com/pagerinc/neutrino-scripts/tree/master/packages/neutrino-bundle-analyser#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pagerinc/web-neutrino-scripts.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/pagerinc/web-neutrino-scripts/issues"
+  },
+  "dependencies": {
+    "deepmerge": "2.2.1",
+    "webpack-bundle-analyzer": "3.0.3"
+  },
+  "peerDependencies": {
+    "neutrino": "^8.0.0"
+  }
+}
