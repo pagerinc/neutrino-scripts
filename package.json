@@ -21,7 +21,7 @@
     "link:all": "lerna exec yarn link",
     "lint": "neutrino lint",
     "precommit": "lint-staged",
-    "release": "yarn build && lerna publish --force-publish=*",
+    "release": "yarn build && lerna publish --force-publish=* --npm-client=npm",
     "release:preview": "yarn build && lerna publish --force-publish=* --skip-git --skip-npm",
     "test": "echo \"Error: no test specified\" && exit 1",
     "version": "yarn changelog --latest-version $LERNA_PUBLISH_VERSION && git add CHANGELOG.md"
