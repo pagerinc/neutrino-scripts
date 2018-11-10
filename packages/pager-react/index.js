@@ -2,11 +2,15 @@ const neutrinoAirbnb = require('@neutrinojs/airbnb');
 const neutrinoStylelint = require('@neutrinojs/stylelint');
 const neutrinoReact = require('@neutrinojs/react');
 const defineCongig = require('@pager/neutrino-define-config');
+const bundleAnalizer = require('@pager/neutrino-bundle-analyser');
+const momentLocale = require('@pager/neutrino-moment-locale');
 const loaderMerge = require('@neutrinojs/loader-merge');
 const merge = require('deepmerge');
 
 module.exports = (neutrino, opts = {}) => {
   neutrino.use(defineCongig, opts);
+  neutrino.use(bundleAnalizer, opts);
+  neutrino.use(momentLocale, opts);
   neutrino.use(neutrinoAirbnb, opts);
   neutrino.use(neutrinoStylelint, opts.stylelint);
   neutrino.use(neutrinoReact, opts);
