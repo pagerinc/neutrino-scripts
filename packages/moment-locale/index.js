@@ -7,7 +7,7 @@ module.exports = (neutrino, opts = {}) => {
   if (options.pager.removeMomentLocale) {
     neutrino.config
       .plugin('pagerMomentLocale')
-      .use(IgnorePlugin, [/^\.\/locale$/, /moment$/])
-      .init((Plugin, args) => new Plugin(args));
+      .use(IgnorePlugin)
+      .init(Plugin => new Plugin(/^\.\/locale$/, /moment$/));
   }
 };
