@@ -1,0 +1,35 @@
+{
+  "name": "@pager/neutrino-moment-locale",
+  "version": "0.5.1",
+  "description": "Neutrino middleware for remove moment locales",
+  "main": "index.js",
+  "keywords": [
+    "neutrino",
+    "neutrino-middleware",
+    "moment",
+    "locale"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pagerinc/neutrino-scripts.git"
+  },
+  "author": "Alex Ruzzarin <alex@pager.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/pagerinc/neutrino-scripts/issues"
+  },
+  "homepage": "https://github.com/pagerinc/neutrino-scripts#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "deepmerge": "2.2.1",
+    "webpack": "3.12.0"
+  },
+  "peerDependencies": {
+    "neutrino": "^8.0.0"
+  }
+}
