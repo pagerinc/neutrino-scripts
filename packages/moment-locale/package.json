@@ -1,6 +1,6 @@
 {
   "name": "@pager/neutrino-moment-locale",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "description": "Neutrino middleware for remove moment locales",
   "main": "index.js",
   "keywords": [
