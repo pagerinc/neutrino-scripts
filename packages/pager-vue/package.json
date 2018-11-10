@@ -36,7 +36,7 @@
     "@pager/neutrino-moment-locale": "^0.6.4",
     "eslint-config-prettier": "3.1.0",
     "eslint-plugin-prettier": "3.0.0",
-    "prettier": "1.15.1"
+    "prettier": "1.15.2"
   },
   "peerDependencies": {
     "neutrino": "^8.0.0"
