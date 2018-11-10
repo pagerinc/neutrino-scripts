@@ -40,6 +40,5 @@
   },
   "peerDependencies": {
     "neutrino": "^8.0.0"
-  },
-  "gitHead": "7668ec4ec8986038179cd0fd676201ad5762ef63"
+  }
 }
