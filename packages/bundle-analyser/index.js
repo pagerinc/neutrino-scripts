@@ -2,7 +2,18 @@ const merge = require('deepmerge');
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 
 module.exports = (neutrino, opts = {}) => {
-  const options = merge({ pager: { analyse: false, analyserOpts: {} } }, opts);
+  const options = merge(
+    {
+      pager: {
+        analyse: false,
+        analyserOpts: {
+          analyzerMode:
+            process.env.NODE_ENV === 'development' ? 'server' : 'static'
+        }
+      }
+    },
+    opts
+  );
 
   if (options.pager.analyse) {
     neutrino.config
