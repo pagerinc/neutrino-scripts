@@ -1351,10 +1351,10 @@ atob@^2.1.1:
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.1.tgz#ae2d5a729477f289d60dd7f96a6314a22dd6c22a"
   integrity sha1-ri1acpR38onWDdf5amMUoi3Wwio=
 
-auto-changelog@1.9.0:
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/auto-changelog/-/auto-changelog-1.9.0.tgz#b1441299d6275ec87a3dd88cb5e3bd90dc200bf4"
-  integrity sha512-oZ6M+p/mH0QisUvSPQ7BQ0n8LjydSV2pt1BSJYfUrQJ/skGwd/AHk0v8A2lUXqBRJ3y/GPo12J36BbMU7CELwA==
+auto-changelog@1.10.0:
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/auto-changelog/-/auto-changelog-1.10.0.tgz#3ae87aa0d3bb56a442f475986a58b1cfda5ea564"
+  integrity sha512-bX78T4xHomx8Sdy5lJYEXIzR/m10eLC4GCyStkhjRs72d+BVLl5dDJboLP/sS94a0IsAxXnXFPO3zBWm+bIKBg==
   dependencies:
     babel-polyfill "^6.26.0"
     commander "^2.9.0"
