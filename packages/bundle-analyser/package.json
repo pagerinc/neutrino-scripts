@@ -1,6 +1,6 @@
 {
   "name": "@pager/neutrino-bundle-analyser",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "description": "Neutrino middleware for analyse the generated bundle",
   "keywords": [
     "neutrino",
