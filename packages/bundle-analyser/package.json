@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "deepmerge": "3.0.0",
-    "webpack-bundle-analyzer": "3.0.3"
+    "webpack-bundle-analyzer": "3.0.4"
   },
   "peerDependencies": {
     "neutrino": "^8.0.0"
