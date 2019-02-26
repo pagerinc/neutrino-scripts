@@ -35,7 +35,7 @@
     "@pager/neutrino-define-config": "^0.7.1",
     "@pager/neutrino-moment-locale": "^0.7.1",
     "deepmerge": "3.0.0",
-    "eslint-config-prettier": "3.3.0",
+    "eslint-config-prettier": "4.1.0",
     "eslint-plugin-prettier": "3.0.0",
     "prettier": "1.15.3",
     "stylelint-config-standard": "18.2.0"
