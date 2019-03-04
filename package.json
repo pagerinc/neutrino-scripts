@@ -34,7 +34,7 @@
     "auto-changelog": "1.10.2",
     "eslint-config-prettier": "3.3.0",
     "eslint-plugin-prettier": "3.0.0",
-    "lerna": "3.6.0",
+    "lerna": "3.13.1",
     "lint-staged": "8.0.5",
     "prettier": "1.15.3"
   },
